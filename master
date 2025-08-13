@@ -1,4 +1,4 @@
 reactor:
 # This reacts to returned stuff (retcodes):
   - 'salt/job/*/ret/*':
-    - /srv/reactor/highstate_reactor.sls
+    - /srv/salt/reactor/highstate_reactor.sls
