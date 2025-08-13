@@ -1,5 +1,5 @@
 # Reactor for highstate failure
-Saltstack reactor file for highstate failure monitoring
+Saltstack reactor file for highstate failure monitoring using Salt's event bus
 
 #
 Salt version: 3006 LTS
