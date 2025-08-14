@@ -16,8 +16,8 @@ When a highstate run fails (retcode != 0), the reactor logs the failure as a Pro
 
 ## ⚙️ Setup:
 
-1. **Event Listening**  
-   The master listens for all job return events:  
+1. **Master config**  
+   This should go into your master config:  
    ```yaml
    reactor:
      - 'salt/job/*/ret/*':
